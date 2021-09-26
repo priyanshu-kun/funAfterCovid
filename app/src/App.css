@@ -66,7 +66,11 @@ table {
 }
 
 .card {
-	border: 1px solid black;
+	border: 2px solid black;
+}
+
+.card img {
+	box-shadow: 0 0 0 3px orange;
 }
 
 .card-artist {
@@ -93,4 +97,12 @@ table {
 
 .card-venue span:not(:nth-child(1)) {
 	color: rgb(0, 0, 0,0.6);
+}
+
+.btns {
+	font-size: 0.6rem;
+}
+
+.info-card {
+	background: rgb(0, 0, 0,0.1);
 }
